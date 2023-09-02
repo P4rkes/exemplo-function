@@ -1,0 +1,76 @@
+// function imprimirOlaMundo() {
+//     console.log("ola mundo")
+// }
+
+//
+
+// function calculaArea(altura, largura) {
+//     const area = altura * largura
+//     console.log(area)
+// }
+
+// calculaArea(2, 3)
+
+//
+
+// function nome(nome) {
+//     console.log("Olá", nome);
+// }
+
+// let leia = prompt("qual teu nome ai");
+// console.log(leia);
+
+// nome("Luke");
+// nome("Scott");
+// nome("Parkes");
+
+//
+
+// const a = 1
+
+// function imprimeVariavel () {
+//     const b = 2
+//     console.log('variavel a', a);
+//     console.log('variavel b', b);
+// }
+
+// imprimeVariavel();
+
+// console.log('variavel a', a);
+// console.log('variavel b', b);
+
+//
+
+
+// function calculaArea(altura, largura) {
+//     const area = altura * largura
+//     return area
+// } 
+
+// atribui retorno à uma variável 
+//const areaCalculada = calculaArea(2, 3);
+
+// imrpime retorno no console
+//console.log(calculaArea(2, 3));
+
+//
+
+// function calcular(numeroUm, numeroDois) {
+//     const numero = numeroUm + numeroDois
+//     return numero
+// }
+
+// console.log(calcular(8, 8));
+
+//
+
+function dividido(meuArray = []) {
+   let foda = [];
+   foda[0] = (meuArray[meuArray.length -1])/2;
+   foda[1] = (meuArray[0])/2;
+    return foda
+}
+
+let antigoArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+console.log(dividido(antigoArray));
